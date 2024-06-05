@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  @include font-100();
+  font-size: 15px;
+  background-color: $bodyColor;
+  color: $titleColor;
+  width: 100vw;
+  height: 95vh;
+}

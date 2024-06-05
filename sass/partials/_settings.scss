@@ -1,0 +1,19 @@
+// color
+$bodyColor: hsl(216, 12%, 8%);
+$bodyWindowColor: hsl(213, 19%, 18%);
+$titleColor: #fff;
+$textColor: hsl(217, 12%, 63%);
+$ratingBackgroundColor: hsl(214, 19%, 24%);
+$btnColor: hsl(25, 97%, 53%);
+
+// font
+
+@mixin font-100() {
+  font-family: "Overpass", sans-serif;
+  font-weight: 100;
+}
+
+@mixin font-400() {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}

@@ -1,0 +1,11 @@
+.main-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $bodyWindowColor;
+  width: 70%;
+  height: 45%;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
