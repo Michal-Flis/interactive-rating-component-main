@@ -101,7 +101,7 @@
   line-height: 20px;
 }
 
-.contener-rating {
+ul {
   display: flex;
   justify-content: space-between;
 }
