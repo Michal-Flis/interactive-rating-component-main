@@ -1,0 +1,169 @@
+@media only screen and (min-width: 768px) {
+  // Section Start
+
+  .main-body {
+    width: 60%;
+    height: 60%;
+  }
+
+  .head {
+    margin: 20px 0 30px 0;
+  }
+
+  .previev-title {
+    font-size: 35px;
+  }
+
+  .preview-text {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+
+  li {
+    margin-bottom: 35px;
+  }
+
+  .rating {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  // Section Thank you
+
+  .thank-you {
+    width: 60%;
+    height: 60%;
+  }
+
+  .thank-icon {
+    width: 170px;
+    height: 120px;
+    margin: 20px 0;
+  }
+
+  .you-selected {
+    width: 50%;
+    color: $btnColor;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .thank-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  .thank-text {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrap {
+    height: 98vh;
+  }
+
+  .main-body {
+    height: 80%;
+  }
+
+  .head {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .start-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .previev-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  .preview-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 70px;
+  }
+
+  .rating {
+    transition: .2s;
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+
+  .rating:hover {
+    background-color: $titleColor;
+    color: #000;
+  }
+
+  .btn {
+    cursor: pointer;
+    transition: .2s;
+  }
+
+  .btn:hover {
+    background-color: $titleColor;
+  }
+
+  // Thank you
+
+  .you-selected {
+    width: 30%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  // Start
+
+  .main-body {
+    width: 40%;
+    height: 70%;
+  }
+
+  .head {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 40px;
+  }
+
+  .start-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  // Thank you
+
+  .thank-you {
+    width: 40%;
+    height: 80%;
+  }
+
+  .thank-icon {
+    width: 200px;
+    height: 150px;
+    margin: 20px 0;
+  }
+
+  .you-selected {
+    width: 40%;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .thank-title {
+    font-size: 70px;
+  }
+
+  .thank-text {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
