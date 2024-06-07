@@ -21,9 +21,9 @@
   </head>
   <body>
     <div class="wrap">
-      <div class="main-body">
+      <div class="main-body start">
         <div class="head">
-          <img src="./img/icon-star.svg" alt="star-icon" />
+          <img src="./img/icon-star.svg" class="start-icon" alt="star-icon" />
         </div>
         <div class="text">
           <h1 class="previev-title">How did we do?</h1>
@@ -32,14 +32,28 @@
             feedback is appreciated to help us improve our offering!
           </p>
         </div>
-        <div class="rating">
-          <div class="number">1</div>
-          <div class="number">2</div>
-          <div class="number">3</div>
-          <div class="number">4</div>
-          <div class="number">5</div>
+        <div class="contener-rating">
+          <li><button class="rating">1</button></li>
+          <li><button class="rating">2</button></li>
+          <li><button class="rating">3</button></li>
+          <li><button class="rating">4</button></li>
+          <li><button class="rating">5</button></li>
         </div>
         <button class="btn">Submit</button>
+      </div>
+
+      <div class="thank-you">
+        <div class="ilustration">
+          <img src="./img/illustration-thank-you.svg" class="thank-icon" alt="ilustration" />
+        </div>
+        <p class="you-selected">You selected <span>1</span> out of 5</p>
+        <div class="text-thank">
+          <h1 class="thank-title">Thank you!</h1>
+          <p class="thank-text">
+            We appreciate you taking the time to give a rating. If you ever need more support, 
+            don't hesitate to get in touch!
+          </p>
+        </div>
       </div>
     </div>
     <footer>
@@ -52,5 +66,7 @@
         >.
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

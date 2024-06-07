@@ -25,6 +25,19 @@
   border-radius: 15px;
 }
 
+.thank-you {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(213, 19%, 18%);
+  width: 70%;
+  height: 45%;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
 .head {
   background: hsl(214, 19%, 24%);
   width: 40px;
@@ -34,14 +47,44 @@
   margin-bottom: 20px;
 }
 
-img {
+.start-icon {
   margin-top: 11px;
   margin-left: 1px;
+}
+
+.ilustration {
+  text-align: center;
+}
+
+.thank-icon {
+  width: 120px;
+  height: 80px;
+  margin: 15px 0 25px 0;
+}
+
+.you-selected {
+  font-family: "Overpass", sans-serif;
+  font-weight: 100;
+  width: 60%;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(214, 19%, 24%);
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 0;
+  margin: 0 auto 20px auto;
+  text-align: center;
 }
 
 .previev-title {
   font-size: 25px;
   margin-bottom: 15px;
+}
+
+.thank-title {
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .preview-text {
@@ -52,22 +95,33 @@ img {
   margin-bottom: 25px;
 }
 
-.rating {
+.thank-text {
+  font-size: 13px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.contener-rating {
   display: flex;
   justify-content: space-between;
 }
 
-.number {
-  background: hsl(214, 19%, 24%);
+li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.rating {
   width: 40px;
   height: 40px;
-  color: hsl(217, 12%, 63%);
-  font-size: 15px;
-  text-align: center;
-  font-weight: bold;
-  line-height: 43px;
+  border: none;
   border-radius: 50%;
-  margin-bottom: 30px;
+  background-color: hsl(214, 19%, 24%);
+  color: #fff;
+}
+
+.rating:focus {
+  background-color: hsl(25, 97%, 53%);
 }
 
 .btn {

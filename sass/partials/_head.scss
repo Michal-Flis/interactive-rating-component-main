@@ -7,7 +7,29 @@
   margin-bottom: 20px;
 }
 
-img {
+.start-icon {
   margin-top: 11px;
   margin-left: 1px;
+}
+.ilustration {
+  text-align: center;
+}
+
+.thank-icon {
+  width: 120px;
+  height: 80px;
+  margin: 15px 0 25px 0;
+}
+
+.you-selected {
+  @include font-100();
+  width: 60%;
+  color: $btnColor;
+  background-color: $ratingBackgroundColor;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 0;
+  margin: 0 auto 20px auto;
+  text-align: center;
 }

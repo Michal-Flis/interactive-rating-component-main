@@ -1,17 +1,22 @@
-.rating {
+.contener-rating {
   display: flex;
   justify-content: space-between;
 }
 
-.number {
-  background: $ratingBackgroundColor;
+li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.rating {
   width: 40px;
   height: 40px;
-  color: $textColor;
-  font-size: 15px;
-  text-align: center;
-  font-weight: bold;
-  line-height: 43px;
+  border: none;
   border-radius: 50%;
-  margin-bottom: 30px;
+  background-color: $ratingBackgroundColor;
+  color: $titleColor;
+  }
+
+  .rating:focus {
+    background-color: $btnColor;
 }
